@@ -1,0 +1,47 @@
+body, div, h1, h2, h3, p, ul, li, form, fieldset, input{
+	margin: 0; padding: 0; border: 0;}
+/* CSS inspired by old projects of mine + website inspiration */
+body {font: 14px/24px Courier; color: #7F0A49;
+	  background: #F7D6E0;}
+
+a {color: #4C062C;} 
+	a:hover {color: #7F0A49;}
+/* CSS for social media "navbar" */
+#container {width: 950px; margin: 0 auto;}
+#header {overflow: hidden;}
+	#header #subscribe {list-style: none; margin: 30px 30px 0 0;
+						font-size: 14px; float: right;}
+	#header #subscribe li.twitter {padding: 5px 0 5px 30px;}
+	#header #subscribe li.instagram {padding: 5px 0 5px 30px;}
+	#header #subscribe li.facebook {padding: 5px 0 5px 30px;}
+/* Body CSS */
+#main {background: #EFF7F6;
+	   overflow: hidden;}
+	#main #content {width: 600px; float: left; padding: 30px 30px 60px 30px;}
+		#main #content h2 {font-size: 24px; margin: 0 0 15px 0;}
+		#main p {margin: 0 0 24px 0;}
+	#main #content .postsmthinfo {margin: 0 0 60px 0;}
+		#main #content .postsmthinfo ul {
+		background: #F7D6E0; overflow: hidden; list-style: none;}
+		#main #content .postsmthinfo ul li.date {float: left;}
+		#main #content .postsmthinfo ul li.category {float: left;}
+		#main #content .postsmthinfo ul li.readmore {float: left;}
+	#main #content .pagething {overflow: hidden;}		
+		#main #content .pagething p {width: 180px; border: 1px solid #F7D6E0; padding: 1px;
+								text-align: center;}
+		#main #content .pagething p.previous { float: left;}
+		#main #content .pagething p.following { float: right;}
+		#main #content .pagething p a {display: block; background: #F7D6E0; padding: 10px 0px 10px 0px;}	
+		#main #sidebar h3 {font-size: 18px; text-align: center;}			
+		#main #sidebar form {overflow: hidden;}	
+		#main #sidebar input.searchbar {float: left; width: 200px; height: 25px; padding: 10px 10px 5px 10px;
+									background: #F7D6E0; border: 1px solid #F7D6E0;
+									font: 14px courier; color: #7F0A49;}
+		#main #sidebar input.searchbutton {width: 34px; height: 34px; float: left; margin: 3px 0 0 8px;
+										background: #F7D6E0;
+										cursor: pointer;
+										padding: 0 0 0 34px;}
+/* Bottom CSS*/
+#footer {overflow: hidden; margin: 0 0 60px 0;}
+	#footer p#back2top {float: right; margin: 0 30px 0 0;}
+	#footer p#back2top a {display: block; padding: 0 0 0 25px;}
